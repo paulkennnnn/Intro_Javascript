@@ -1,4 +1,45 @@
 <head>
-	<title></title>
-	<body></body>
-</head>
+		<title>Introduction to Javascript
+		</title>
+	</head>
+
+	<body>
+		<!-- onclick,
+			Change style.fontSize -->
+		<h1 
+		id="action1"
+		onclick="
+		document
+			.getElementById('action1')
+			.style
+			.fontSize='60px'
+		">Hello World 1</h1>	
+		
+		<!--onclick,
+			change innerHTML="Goodbye World" -->
+		<h1 id="action2" 
+		onclick="
+		document
+			.getElementById('action2')
+			.innerHTML='Goodbye World'
+		">Hello World 2</h1>
+		
+		<!--onmouseover,
+			change style.color="red" -->
+		<h1 id="action3"
+		onmouseover="
+		document
+			.getElementById('action3')
+			.style.color='red'
+		">Hello World 3</h1>
+		
+		<!-- onmouseout,
+			change style.backgroundColor="blue" -->
+		<h1 id="action4"
+		onmouseout="
+		document
+			.getElementById('action4')
+			.style.backgroundColor='blue'
+		">Hello World 4</h1>	
+	</body>
+</html>
